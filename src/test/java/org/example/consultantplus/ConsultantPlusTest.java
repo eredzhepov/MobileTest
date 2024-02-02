@@ -28,6 +28,7 @@ public class ConsultantPlusTest {
         desiredCapabilities.setCapability("appium:newCommandTimeout", 3600);
         desiredCapabilities.setCapability("appium:connectHardwareKeyboard", true);
 
+
         URL remouteURl = new URL("127.0.0.1:4723");
 
         driver = new AndroidDriver(remouteURl, desiredCapabilities);
