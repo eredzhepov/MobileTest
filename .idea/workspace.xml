@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e69160e-59b3-433d-ae09-4c8275494141" name="Changes" comment="Удалены файлы Allure">
+      <change afterPath="$PROJECT_DIR$/allure-results/13e80661-580f-41cc-a123-b71e60e1abab-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2bd507e1-fcef-4dc4-98ec-65527249cd42-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2c4d70c1-da6c-4e38-bb01-60135d69071d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/69e236d0-5754-4009-a724-a1b5994bffbe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/718b4975-2444-4515-8af6-1c9263aae7e9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/739c0715-6aa0-4f59-9986-82110db5281a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8c19849e-efde-4fb2-a364-64021b682490-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a4c98f03-61f0-4107-a602-dfb6de2e38a0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a5987370-c180-4eb7-9b8b-d0da4478a4a8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d1f88c11-cf4e-4ddb-8668-ff95c4cbcbd6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e1dff7c3-03cc-4731-9d97-86e540a5dbcf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f5446f89-fd15-4f50-ae91-6f153cc93b1c-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/13e80661-580f-41cc-a123-b71e60e1abab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2bd507e1-fcef-4dc4-98ec-65527249cd42-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2c4d70c1-da6c-4e38-bb01-60135d69071d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/69e236d0-5754-4009-a724-a1b5994bffbe-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/718b4975-2444-4515-8af6-1c9263aae7e9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/739c0715-6aa0-4f59-9986-82110db5281a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8c19849e-efde-4fb2-a364-64021b682490-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a4c98f03-61f0-4107-a602-dfb6de2e38a0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a5987370-c180-4eb7-9b8b-d0da4478a4a8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d1f88c11-cf4e-4ddb-8668-ff95c4cbcbd6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e1dff7c3-03cc-4731-9d97-86e540a5dbcf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f5446f89-fd15-4f50-ae91-6f153cc93b1c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/consultantplus/ConsultantPlusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/consultantplus/ConsultantPlusTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706854217181</updated>
       <workItem from="1706854218250" duration="2144000" />
-      <workItem from="1706861814191" duration="804000" />
+      <workItem from="1706861814191" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="Начальные настройки (Есть ошибки в проекте)">
       <option name="closed" value="true" />
@@ -146,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706862617688</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Удалены файлы Allure">
+      <option name="closed" value="true" />
+      <created>1706862670163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706862670163</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

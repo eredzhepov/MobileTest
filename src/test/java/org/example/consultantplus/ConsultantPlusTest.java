@@ -1,12 +1,11 @@
 package org.example.consultantplus;
 
 import io.appium.java_client.android.AndroidDriver;
-import org.junit.Test;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -30,7 +29,6 @@ public class ConsultantPlusTest {
 
 
         URL remouteURl = new URL("127.0.0.1:4723");
-
         driver = new AndroidDriver(remouteURl, desiredCapabilities);
         introScreen = new IntroScreen(driver);
     }
