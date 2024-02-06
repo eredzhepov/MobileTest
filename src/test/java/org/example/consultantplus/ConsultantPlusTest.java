@@ -28,7 +28,7 @@ public class ConsultantPlusTest {
         desiredCapabilities.setCapability("appium:connectHardwareKeyboard", true);
 
 
-        URL remouteURl = new URL("127.0.0.1:4723");
+        URL remouteURl = new URL("http://127.0.0.1:4723");
         driver = new AndroidDriver(remouteURl, desiredCapabilities);
         introScreen = new IntroScreen(driver);
     }
