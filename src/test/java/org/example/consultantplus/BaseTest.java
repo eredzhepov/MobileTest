@@ -24,13 +24,15 @@ public class BaseTest {
         desiredCapabilities.setCapability("appium:connectHardwareKeyboard", true);
     }
     public static AndroidDriver getDriver()   {
-        URL remouteURl = null;
+        URL remouteURl;
         try {
             remouteURl = new URL("http://127.0.0.1:4723");
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
-        driver = new AndroidDriver(remouteURl, desiredCapabilities);
+        if (driver == null) {
+            driver = new AndroidDriver(remouteURl, desiredCapabilities);
+        }
         return driver;
     }
     @AfterEach

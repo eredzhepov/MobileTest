@@ -15,6 +15,7 @@ public class IntroScreenSecondPage {
     @AndroidFindBy(id = "title") // Уточнить локатор
     private WebElement title;
     public boolean titleIsDisplayed(){
+        myWait(5).visible(title);
         LOG.info("Проверка отображения Тайтла на 2-й странице подсказки");
         return title.isDisplayed();
     }
