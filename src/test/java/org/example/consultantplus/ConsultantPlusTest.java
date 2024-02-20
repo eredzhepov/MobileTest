@@ -79,4 +79,16 @@ public class ConsultantPlusTest extends BaseTest{
         mainPage.leftSearchButtonClick();
         assertEquals(actual,searchDocumentsPage.getSearchEditText(), "Введенный в поле поиск текст не совпадает с текстом в поле поиск");
     }
+    @Test
+    @DisplayName("Проверить работу фильтра новосте, при выборе 1-го элемента")
+    @Tag("8")
+    public void newsFilter() {
+        String actualFilterText = "Фильтр: Бухгалтер";
+        introScreen.skipLearningClick();
+        mainPage.newsClick();
+        mainPage.filterButtonClick();
+        mainPage.clickCheckBox();
+        mainPage.appruvFilterButtonClick();
+        assertEquals(actualFilterText,mainPage.getfilterButtonText(), "Текст фильтра не верный");
+    }
 }
