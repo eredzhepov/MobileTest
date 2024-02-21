@@ -105,4 +105,12 @@ public class ConsultantPlusTest extends BaseTest{
         mainPage.appruvFilterButtonClick();
         assertEquals(actualFilterText,mainPage.getfilterButtonText(), "Текст фильтра не верный");
     }
+    @Test
+    @DisplayName("Проверить отображения списка кодексов")
+    @Tag("10")
+    public void codecsIsDisplayed() {
+        introScreen.skipLearningClick();
+        mainPage.codecsClick();
+        assertTrue(mainPage.codexListIsDisplayed(), "Список кодексов не появился");
+    }
 }

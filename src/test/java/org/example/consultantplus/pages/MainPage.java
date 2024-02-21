@@ -50,6 +50,13 @@ public class MainPage {
         LOG.info("Выбраны пункт меню Новости");
         news.click();
     }
+    @AndroidFindBy(uiAutomator = "new UiSelector().className(\"android.widget.CheckedTextView\").textContains(\"Кодексы\")" )
+    private WebElement codecs;
+    public void codecsClick(){
+        myWait(10).visible(codecs);
+        LOG.info("Выбраны пункт меню Кодексы");
+        codecs.click();
+    }
     @AndroidFindBy(id = "com.consultantplus.app:id/list_scopes")
     private WebElement filterButton;
     public void filterButtonClick(){
@@ -70,10 +77,18 @@ public class MainPage {
     }
     @AndroidFindBy(id = "com.consultantplus.app:id/apply_btn")
     private WebElement appruvFilterButton;
+    @AndroidFindBy(id ="com.consultantplus.app:id/codex_list")
+    private WebElement codexList;
+    public Boolean codexListIsDisplayed(){
+        LOG.info("Проверка отображения кодексов");
+        myWait(5).visible(codexList);
+        return codexList.isDisplayed();
+    }
     public void appruvFilterButtonClick(){
         LOG.info("Применение настроек фильтра");
         appruvFilterButton.click();
     }
+
 
 
     public MainPage(AndroidDriver driver){
