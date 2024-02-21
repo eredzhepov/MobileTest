@@ -61,12 +61,12 @@ public class MainPage {
         return filterButton.getText();
     }
 
-    @AndroidFindBy(xpath = "//android.widget.CheckBox[@text='Бухгалтер' and @class='android.widget.CheckBox']")
-    private WebElement checkBox;
-    public void clickCheckBox(){
-        myWait(5).visible(checkBox);
-        LOG.info("Выбран чек бокс бухгалтер");
-        checkBox.click();
+    @AndroidFindBy(xpath = "//android.widget.CheckBox[@class='android.widget.CheckBox']")
+    private List<WebElement> checkBox;
+    public void clickCheckBox(int count){
+        myWait(5).visible(checkBox.get(count));
+        LOG.info("Выбран чек бокс под номером" + count + 1 + " и значением " + checkBox.get(count).getText());
+        checkBox.get(count).click();
     }
     @AndroidFindBy(id = "com.consultantplus.app:id/apply_btn")
     private WebElement appruvFilterButton;
